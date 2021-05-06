@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyProfile</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+</head> 
+<body class="fond">
+    <header>
+        <h2 class="centre">MyProfile</h2>
+    </header>
+    <main class="aligner taille ">
+        <div>
+            <form class="sympa" method="GET" action="form1.html">
+            <div>
+            <div class="aligner">
+
+            <div class="civile">
+
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label>
+
+            </div>
+            <br>
+
+            <div class="nompre">
+
+            <label id="tqt" for="fname"></label><br>
+            <input  class="coucou" type="text" id="fname" name="fname" placeholder="   First Name" required><br>
+
+            <label id="tqt" for="lname"></label><br>
+            <input  class="coucou" type="text" id="lname" name="lname" placeholder="   Last Name" required>
+
+            </div>    
+        </div>
+
+            <div class="aligner" id="tqt2">
+            <div>
+                    <label for="birthday"></label>
+                    <input  class="coucou" type="date" id="birthday" name="birthday" placeholder="   Birthday" required>
+            </div>
+            <div class="nompre">
+                <label for="email"></label>
+                <input class="coucou" type="email" id="email" name="email" placeholder="   Email" required>
+            </div>
+            <div class="nompre">
+                    <label for="tel"></label>
+                    <input class="coucou" type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="  Phone">
+            </div>
+            </div>  
+
+            <div class="aligner">
+                <label class="avat" for="avatar">Avatar: </label>
+                <input class="avat2" type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+            </div>
+            <div class="aligner">
+                <input class="avat3" type="radio" id="CGU" name="condition" value="male" required>
+                <label class="avat3" for="male">Accepter les CGU</label><br>
+            </div>
+
+            </div>
+            <button class="lessstyled">Continuer</button>  
+        </form>
+        </div>
+        <footer>
+
+
+    </div>
+    </main>
+    <footer>
+        <div id="div-footer">
+            <div>
+                <img src="img/LogoMyProfile.png">
+            </div>
+            <div class="gauche">
+                <p>Cookies</p>
+                <p>Conditions générales d'utilisations</p>
+                <p>Politique de confidentialité</p>
+                <p>Informations sur les publicités</p>
+            </div>
+            <div class="droite">
+                <p>À propos</p>
+                <p>Statut</p>
+                <p>Entreprises</p>
+                <p>Développeurs</p>
+            </div>
+            <div class="droitedroite">
+                <p>Langues</p>
+                <p>Politique de copyright</p>
+                <p>Envoyer un feedback</p>
+                <p>Directives de communauté</p>
+            </div>
+    </footer>
+</body>
+</html>

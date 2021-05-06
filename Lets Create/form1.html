@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form1.css" type="text/css">
+    <title>Etape 2</title>
+</head>
+<body>
+    <div id="header">
+        <h1 class="titre">MyProfile</h1>
+    </div>
+    <div>
+        <form method="GET" action="form2.html">
+            <div class="div-infos">
+                <label id="etap2">Etape 2</label>
+            </div>
+            <div class="div-infos">
+                <label class="titreslignes">-Profession :</label>
+                <input type="text" placeholder="Votre profession ici" class="inputstext" required>
+            </div>
+            <div class="div-infos">
+                <label class="titreslignes">-Quel est votre statut ?</label>
+                <p class="div-infos">
+                    <select required>
+                        <option>Salarié</option>
+                        <option>Gérant</option>
+                        <option>Indépendant</option>
+                        <option>Recherche d'emploi</option>
+                        <option>Autre</option>
+                    </select>
+                </p>
+            </div>
+            <div class="div-infos">
+                <label class="titreslignes">-Quels sont vos hobbys ?</label>
+            </div>
+            <div id="div-groupe-tableau">
+                <div class="div-tableau">
+                    <div>
+                        <label class="gras">Technologie</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Jeux vidéos</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Streaming</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Domotique</label>
+                    </div>
+                </div>
+                <div class="div-tableau">
+                    <div>
+                        <label class="gras">Sport</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Sports extrèmes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Sports en équipes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Sports individuels</label>
+                    </div>
+                </div>
+                <div class="div-tableau">
+                    <div>
+                        <label class="gras">Art</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Théâtre</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Danse</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Chant</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label class="titreslignes">-Votre biographie :</label>
+                <textarea id="bio" placeholder="Écrivez votre biographie ici"></textarea> 
+            </div>
+            <div>
+                <button id="submit-button">Suivant</button>
+            </div>
+        </form>
+    </div>
+    <div id="div-footer">
+        <div>
+            <img src="img/LogoMyProfile.png">
+        </div>
+        <div class="gauche">
+            <p>Cookies</p>
+            <p>Conditions générales d'utilisations</p>
+            <p>Politique de confidentialité</p>
+            <p>Informations sur les publicités</p>
+        </div>
+        <div class="droite">
+            <p>À propos</p>
+            <p>Statut</p>
+            <p>Entreprises</p>
+            <p>Développeurs</p>
+        </div>
+        <div class="droitedroite">
+            <p>Langues</p>
+            <p>Politique de copyright</p>
+            <p>Envoyer un feedback</p>
+            <p>Directives de communauté</p>
+        </div>
+    </div>
+</body>
+</html>

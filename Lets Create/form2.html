@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etape 3</title>
+    <link rel="stylesheet" type="text/css" href="css/form2.css">
+</head>
+<body class="fond">
+<header>
+    <h2 class="centre">MyProfile</h2>
+</header>
+<main>
+    <div class="payment">
+        <form method="get" action="index.html">
+
+            <p>
+                <label>Choix du type de carte: </label>
+                <select required>
+                    <option value="">...</option>
+                    <option value="CB">CB</option>
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                </select>
+            </p>
+            <p>Titulaire de la carte: <input type="text" name="pseudo" required/></p>
+            <p>Numéro de carte: <input type="text" pattern="[0-9]*" inputmode="numeric" minlength="16" maxlength="16" required>
+            </p>
+            <p>
+                <label>Date d'expiration: </label>
+                <select required>
+					<option value="">...</option>
+                    <option value="01">Janvier</option>
+                    <option value="02">Fevrier</option>
+                    <option value="03">Mars</option>
+                    <option value="04">Avril</option>
+                    <option value="05">Mai</option>
+                    <option value="06">Juin</option>
+                    <option value="07">Juillet</option>
+                    <option value="08">Aout</option>
+                    <option value="09">Septembre</option>
+                    <option value="10">Octobre</option>
+                    <option value="11">Novembre</option>
+                    <option value="12">Décembre</option>
+                </select>
+                <select required>
+					<option value="">...</option>
+                    <option value="20"> 20</option>
+                    <option value="21"> 21</option>
+                    <option value="22"> 22</option>
+                    <option value="23"> 23</option>
+                    <option value="24"> 24</option>
+                    <option value="25"> 25</option>
+                    <option value="26"> 26</option>
+                    <option value="27"> 27</option>
+                    <option value="28"> 28</option>
+                    <option value="29"> 29</option>
+                    <option value="30"> 30</option>
+                </select>
+            </p>
+            <p>Cryptogramme: <input type="text" pattern="[0-9]*" inputmode="numeric" minlength="3" maxlength="3" required></p>
+
+            <button class="text-center">Terminer</button>
+        </form>
+    </div>
+
+</main>
+</body>
+</html>
